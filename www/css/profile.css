@@ -1,0 +1,32 @@
+/* line 3, ../../scss/profile.scss */
+.profilepic {
+  -moz-border-radius: 50% / 50%;
+  -webkit-border-radius: 50% 50%;
+  border-radius: 50% / 50%;
+  margin-top: 50px;
+  max-width: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  min-width: 165px;
+  margin-bottom: 40px;
+}
+
+/* line 12, ../../scss/profile.scss */
+a.cv {
+  border: 3px solid #ef1b3e;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ef1b3e;
+  margin: auto;
+  display: inline-block;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* line 22, ../../scss/profile.scss */
+a.cv:hover {
+  background: #ef1b3e;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,37 @@
+/* line 3, ../../scss/myskills.scss */
+.skillGroup {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 8, ../../scss/myskills.scss */
+.skillWrapper {
+  width: 24%;
+  min-width: 100px;
+  display: inline-block;
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* line 15, ../../scss/myskills.scss */
+.skillWrapper .skillIcon {
+  width: 75%;
+  margin: auto;
+  display: table;
+}
+/* line 20, ../../scss/myskills.scss */
+.skillWrapper .skillIcon .valign {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 26, ../../scss/myskills.scss */
+.skillWrapper .skillIcon svg {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+/* line 34, ../../scss/myskills.scss */
+.skillWrapper .skillTitle {
+  font-weight: bold;
+}

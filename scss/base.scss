@@ -1,0 +1,59 @@
+@import "compass/utilities/sprites";
+@import "compass/css3/border-radius";
+@import "compass/utilities/sprites/base";
+@import "compass";
+
+$main-font: "Roboto";
+
+$break-big: 960px;
+$break-larger:930px;
+$break-large:700px;
+$break-medium:600px;
+$break-small:480px;
+$break-smaller:400px;
+
+//Main colors
+$main-red: #ef1b3e;
+$content-bg: #f3f7f9;
+
+//Topbar colors
+$topbar-bg: #ffffff;
+$topbar-sep: #dddedf;
+$topbar-menu-hover: #f0f4f7;
+
+//Sidebar colors
+$sidebar-bg: #192129;
+$sidebar-font: #ccd1d3;
+$sidebar-font-hover: #ef1b3e;
+$sidebar-font-selected: #ffffff;
+
+@mixin trans {
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+@mixin borderbox {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+@mixin cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+@mixin noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

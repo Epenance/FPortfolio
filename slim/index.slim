@@ -1,13 +1,33 @@
 doctype html
 html
   head
-    title Slim Examples
-    link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css"
+    meta content="text/html; charset=utf-8" http-equiv="Content-Type"
+    meta content="width=device-width,initial-scale=1,maximum-scale=1" name="viewport"
+    link href="css/screen.css" rel="stylesheet" type="text/css" media="all"
+
+    title
+
   body
-    h1 Markup examples 1234
-    span.icons.icons-plus
+    #menu-burger
+      .vlign
+        span.frame-topbar-burger
 
-    #content
-      p This example shows you how a basic Slim file looks like.
+    #sidebar
+      #logo_box
+        a href="#"
+          .desk
+            span.frame-MHlogo
+          .mob
+            span.frame-MHlogo
+      #sidebar_backdrop
+        nav#sidebar_content_wrapper
 
-    div id="footer"
+          <?php include('sidebar.php') ?>
+
+    #site
+      #content
+          <?php include('profile.php') ?>
+          <?php include('myskills.php') ?>
+
+    script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"
+    script src="js/fancy.js"
