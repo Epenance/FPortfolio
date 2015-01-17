@@ -11,7 +11,7 @@
     <div class="test"></div>
   </li>
   <li>
-    <a href="#mywork"><img class="svg" src="img/reworked/appbar.book.list.svg" /><span>Curriculum vitae</span></a>
+    <a href="#cv"><img class="svg" src="img/reworked/appbar.book.list.svg" /><span>Curriculum vitae</span></a>
     <div class="test"></div>
   </li>
   <li>

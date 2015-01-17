@@ -782,6 +782,66 @@ a.cv:hover {
   font-weight: bold;
 }
 
+/* line 3, ../../scss/cv.scss */
+#site #content .cv_table {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+/* line 8, ../../scss/cv.scss */
+#site #content .cv_table .cv_time {
+  width: 100%;
+  height: 40px;
+  background: #ef1b3e;
+  display: block;
+}
+/* line 14, ../../scss/cv.scss */
+#site #content .cv_table .cv_time .valign {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+/* line 20, ../../scss/cv.scss */
+#site #content .cv_table .cv_time .valign .middle {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 34, ../../scss/cv.scss */
+#site #content .cv_table .cv_desc {
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+}
+/* line 42, ../../scss/cv.scss */
+#site #content .cv_table .cv_desc h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 48, ../../scss/cv.scss */
+#site #content .cv_table .cv_desc h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 56, ../../scss/cv.scss */
+#site #content .cv_table .cv_desc p {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
 /* line 64, icons/*.png */
 .icons-sprite, .icons-accept, .icons-close, .icons-plus {
   background-image: url('../img/icons-s791a4c47dc.png');
@@ -809,45 +869,50 @@ a.cv:hover {
   width: 16px;
 }
 
-/* line 17, ../../scss/screen.scss */
+/* line 18, ../../scss/screen.scss */
 .cf {
   clear: both;
 }
 
-/* line 21, ../../scss/screen.scss */
+/* line 22, ../../scss/screen.scss */
 html, html a {
   -webkit-font-smoothing: antialiased;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 
-/* line 26, ../../scss/screen.scss */
+/* line 27, ../../scss/screen.scss */
 a {
   text-decoration: none;
 }
-/* line 29, ../../scss/screen.scss */
+/* line 30, ../../scss/screen.scss */
 a:hover {
   text-decoration: underline;
 }
 
-/* line 34, ../../scss/screen.scss */
+/* line 35, ../../scss/screen.scss */
 body, html {
   height: 100%;
 }
 
-/* line 38, ../../scss/screen.scss */
+/* line 39, ../../scss/screen.scss */
 html {
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
-/* line 43, ../../scss/screen.scss */
+/* line 44, ../../scss/screen.scss */
+body {
+  background: url(../img/bg.jpg);
+}
+
+/* line 48, ../../scss/screen.scss */
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 
-/* line 47, ../../scss/screen.scss */
+/* line 52, ../../scss/screen.scss */
 .center {
   text-align: center;
 }

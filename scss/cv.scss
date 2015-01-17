@@ -1,0 +1,62 @@
+@import "base";
+#site #content {
+.cv_table {
+  width:100%;
+  height:auto;
+  margin-bottom:20px;
+
+  .cv_time {
+    width:100%;
+    height:40px;
+    background:$main-red;
+    display:block;
+
+    .valign {
+      display:table;
+      width:100%;
+      height:100%;
+
+
+      .middle {
+        display:table-cell;
+        width:100%;
+        height:100%;
+        color:white;
+        font-weight:bold;
+        font-size:16px;
+        line-height:1.5;
+        vertical-align: middle;
+        text-align:center;
+      }
+    }
+  }
+
+  .cv_desc {
+    height:100%;
+    width:100%;
+    display:block;
+    padding:20px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-top:none;
+
+    h3 {
+      font-size:24px;
+      font-weight:bold;
+      margin-bottom:10px;
+    }
+
+    h4 {
+      font-size:20px;
+      font-weight:bold;
+      margin-bottom:10px;
+      font-style:italic;
+      color:rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+      margin-bottom:0px;
+      font-size:20px;
+    }
+  }
+}
+}

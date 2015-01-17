@@ -1,7 +1,4 @@
 <div class="inner_content" id="profile">
-  <h1 class="center">
-    Profile
-  </h1>
   <p>
     I am Martin Hobert — a front-end developer based in Helsinge, Denmark. I love coding complex  as well as simple designs that keeps the end user in mind.
   </p>

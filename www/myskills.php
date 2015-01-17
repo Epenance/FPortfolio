@@ -1,7 +1,4 @@
 <div class="inner_content" id="myskills">
-  <h1>
-    My skills
-  </h1>
   <p>
     Technologies I'm best with
   </p>

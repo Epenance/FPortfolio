@@ -31,7 +31,7 @@
     </div>
     <div id="site">
       <div id="content">
-        <?php include('profile.php') ?><?php include('myskills.php') ?>
+        <?php include('profile.php') ?><?php include('myskills.php') ?><?php include('cv.php') ?>
       </div>
     </div>
     <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
