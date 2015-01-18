@@ -782,26 +782,196 @@ a.cv:hover {
   font-weight: bold;
 }
 
-/* line 3, ../../scss/cv.scss */
+/* line 4, ../../scss/cv.scss */
+#site #content .edu {
+  text-align: center;
+}
+/* line 8, ../../scss/cv.scss */
+#site #content .emp {
+  text-align: center;
+}
+/* line 11, ../../scss/cv.scss */
 #site #content .cv_table {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
+  background: #fff;
 }
-/* line 8, ../../scss/cv.scss */
+/* line 17, ../../scss/cv.scss */
+#site #content .cv_table .cv_img {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 1px solid #ef1b3e;
+  position: relative;
+}
+/* line 29, ../../scss/cv.scss */
+#site #content .cv_table .cv_img#preadly {
+  background-image: url(../img/preadly.jpg);
+}
+/* line 33, ../../scss/cv.scss */
+#site #content .cv_table .cv_img#partnerdialog {
+  background-image: url(../img/partnerdialog.jpg);
+}
+/* line 37, ../../scss/cv.scss */
+#site #content .cv_table .cv_img#washa {
+  background-image: url(../img/washa.jpg);
+}
+/* line 41, ../../scss/cv.scss */
+#site #content .cv_table .cv_img#foxweb {
+  background-image: url(../img/foxweb.jpg);
+  background-position: center top;
+}
+/* line 46, ../../scss/cv.scss */
+#site #content .cv_table .cv_img#bjornehoj {
+  background-image: url(../img/bjornehoj.jpg);
+}
+/* line 50, ../../scss/cv.scss */
+#site #content .cv_table .cv_img#rts {
+  background-image: url(../img/rts.jpg);
+}
+/* line 55, ../../scss/cv.scss */
+#site #content .cv_table .cv_img:hover .viewsite {
+  opacity: 1;
+}
+/* line 60, ../../scss/cv.scss */
+#site #content .cv_table .cv_img:hover:before {
+  height: 80%;
+}
+/* line 64, ../../scss/cv.scss */
+#site #content .cv_table .cv_img:hover:after {
+  width: 80%;
+}
+/* line 68, ../../scss/cv.scss */
+#site #content .cv_table .cv_img::after {
+  width: 0%;
+  height: 80%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* line 83, ../../scss/cv.scss */
+#site #content .cv_table .cv_img::before {
+  width: 80%;
+  height: 0%;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/* line 97, ../../scss/cv.scss */
+#site #content .cv_table .cv_img .viewsite {
+  opacity: 0;
+  background: rgba(239, 27, 62, 0.8);
+  padding: 20px 20px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 20;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  -moz-border-radius: 3px / 3px;
+  -webkit-border-radius: 3px 3px;
+  border-radius: 3px / 3px;
+}
+@media screen and (max-width: 600px) {
+  /* line 97, ../../scss/cv.scss */
+  #site #content .cv_table .cv_img .viewsite {
+    padding: 10px;
+  }
+}
+/* line 114, ../../scss/cv.scss */
+#site #content .cv_table .cv_img .viewsite:hover {
+  text-decoration: none;
+}
+/* line 117, ../../scss/cv.scss */
+#site #content .cv_table .cv_img .viewsite:hover:before {
+  height: 100%;
+}
+/* line 121, ../../scss/cv.scss */
+#site #content .cv_table .cv_img .viewsite:hover:after {
+  width: 100%;
+}
+/* line 125, ../../scss/cv.scss */
+#site #content .cv_table .cv_img .viewsite::after {
+  width: 0%;
+  height: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  -moz-border-radius: 3px / 3px;
+  -webkit-border-radius: 3px 3px;
+  border-radius: 3px / 3px;
+}
+/* line 141, ../../scss/cv.scss */
+#site #content .cv_table .cv_img .viewsite::before {
+  width: 100%;
+  height: 0%;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  -moz-border-radius: 3px / 3px;
+  -webkit-border-radius: 3px 3px;
+  border-radius: 3px / 3px;
+}
+/* line 158, ../../scss/cv.scss */
 #site #content .cv_table .cv_time {
   width: 100%;
   height: 40px;
   background: #ef1b3e;
   display: block;
 }
-/* line 14, ../../scss/cv.scss */
+/* line 164, ../../scss/cv.scss */
 #site #content .cv_table .cv_time .valign {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 20, ../../scss/cv.scss */
+/* line 170, ../../scss/cv.scss */
 #site #content .cv_table .cv_time .valign .middle {
   display: table-cell;
   width: 100%;
@@ -813,7 +983,7 @@ a.cv:hover {
   vertical-align: middle;
   text-align: center;
 }
-/* line 34, ../../scss/cv.scss */
+/* line 184, ../../scss/cv.scss */
 #site #content .cv_table .cv_desc {
   height: 100%;
   width: 100%;
@@ -822,13 +992,13 @@ a.cv:hover {
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-top: none;
 }
-/* line 42, ../../scss/cv.scss */
+/* line 192, ../../scss/cv.scss */
 #site #content .cv_table .cv_desc h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-/* line 48, ../../scss/cv.scss */
+/* line 198, ../../scss/cv.scss */
 #site #content .cv_table .cv_desc h4 {
   font-size: 20px;
   font-weight: bold;
@@ -836,7 +1006,7 @@ a.cv:hover {
   font-style: italic;
   color: rgba(0, 0, 0, 0.5);
 }
-/* line 56, ../../scss/cv.scss */
+/* line 206, ../../scss/cv.scss */
 #site #content .cv_table .cv_desc p {
   margin-bottom: 0px;
   font-size: 20px;

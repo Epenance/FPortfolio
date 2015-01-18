@@ -17,7 +17,7 @@ $('nav ul li a').click (event) ->
 
 $ ->
   $(".inner_content").hide()
-  $("#profile").show()
+  $("#cv").show()
 	$("#site").addClass 'loaded'
 
 jQuery("img.svg").each ->

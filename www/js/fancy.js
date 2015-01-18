@@ -20,7 +20,7 @@
 
   $(function() {
     $(".inner_content").hide();
-    return $("#profile").show();
+    return $("#cv").show();
   });
 
   $("#site").addClass('loaded');
